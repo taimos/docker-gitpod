@@ -9,6 +9,3 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
     npm install -g aws-authenticate jsmin && \
     pip3 install cfn-lint
 
-COPY profile /home/gitpod/.bash_profile
-
-COPY gitconfig /home/gitpod/.gitconfig

@@ -1,2 +1,5 @@
-testbuild:
-	docker build -t taimos/gitpod:testing .
+build:
+	docker build -t taimos/gitpod .
+
+publish:
+	docker push taimos/gitpod
